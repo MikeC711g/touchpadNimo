@@ -74,12 +74,24 @@ B: KEY=e520 30000 0 0 0 0
 B: ABS=2e0800000000003
 B: MSC=20
 
+I: Bus=0003 Vendor=10c4 Product=8105 Version=0111
+N: Name="YSPRINGTECH USB OPTICAL MOUSE"
+P: Phys=usb-0000:00:14.0-1/input0
+S: Sysfs=/devices/pci0000:00/0000:00:14.0/usb3/3-1/3-1:1.0/0003:10C4:8105.0002/input/input9
+U: Uniq=
+H: Handlers=mouse2 event7 
+B: PROP=0
+B: EV=17
+B: KEY=1f0000 0 0 0 0
+B: REL=903
+B: MSC=10
+
 I: Bus=0019 Vendor=0000 Product=0000 Version=0000
 N: Name="Intel HID events"
 P: Phys=
-S: Sysfs=/devices/platform/INTC1070:00/input/input9
+S: Sysfs=/devices/platform/INTC1070:00/input/input10
 U: Uniq=
-H: Handlers=rfkill kbd event7 
+H: Handlers=rfkill kbd event8 
 B: PROP=0
 B: EV=13
 B: KEY=81000300000000 5000004000 1e294000000020 0
@@ -88,9 +100,9 @@ B: MSC=10
 I: Bus=0019 Vendor=0000 Product=0000 Version=0000
 N: Name="Intel HID 5 button array"
 P: Phys=
-S: Sysfs=/devices/platform/INTC1070:00/input/input10
+S: Sysfs=/devices/platform/INTC1070:00/input/input11
 U: Uniq=
-H: Handlers=kbd event8 
+H: Handlers=kbd event9 
 B: PROP=0
 B: EV=13
 B: KEY=2000000000000 0 0 0 0 1000000000000 0 201c000000000000 0
@@ -99,9 +111,9 @@ B: MSC=10
 I: Bus=0019 Vendor=0000 Product=0006 Version=0000
 N: Name="Video Bus"
 P: Phys=LNXVIDEO/video/input0
-S: Sysfs=/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input11
+S: Sysfs=/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input12
 U: Uniq=
-H: Handlers=kbd event9 
+H: Handlers=kbd event10 
 B: PROP=0
 B: EV=3
 B: KEY=3e000b00000000 0 0 0
@@ -109,9 +121,9 @@ B: KEY=3e000b00000000 0 0 0
 I: Bus=0000 Vendor=0000 Product=0000 Version=0000
 N: Name="HDA Intel PCH Mic"
 P: Phys=ALSA
-S: Sysfs=/devices/pci0000:00/0000:00:1f.3/sound/card0/input12
+S: Sysfs=/devices/pci0000:00/0000:00:1f.3/sound/card0/input13
 U: Uniq=
-H: Handlers=event10 
+H: Handlers=event11 
 B: PROP=0
 B: EV=21
 B: SW=10
@@ -119,25 +131,15 @@ B: SW=10
 I: Bus=0000 Vendor=0000 Product=0000 Version=0000
 N: Name="HDA Intel PCH Headphone"
 P: Phys=ALSA
-S: Sysfs=/devices/pci0000:00/0000:00:1f.3/sound/card0/input13
+S: Sysfs=/devices/pci0000:00/0000:00:1f.3/sound/card0/input14
 U: Uniq=
-H: Handlers=event11 
+H: Handlers=event12 
 B: PROP=0
 B: EV=21
 B: SW=4
 
 I: Bus=0000 Vendor=0000 Product=0000 Version=0000
 N: Name="HDA Intel PCH HDMI/DP,pcm=3"
-P: Phys=ALSA
-S: Sysfs=/devices/pci0000:00/0000:00:1f.3/sound/card0/input14
-U: Uniq=
-H: Handlers=event12 
-B: PROP=0
-B: EV=21
-B: SW=140
-
-I: Bus=0000 Vendor=0000 Product=0000 Version=0000
-N: Name="HDA Intel PCH HDMI/DP,pcm=7"
 P: Phys=ALSA
 S: Sysfs=/devices/pci0000:00/0000:00:1f.3/sound/card0/input15
 U: Uniq=
@@ -147,7 +149,7 @@ B: EV=21
 B: SW=140
 
 I: Bus=0000 Vendor=0000 Product=0000 Version=0000
-N: Name="HDA Intel PCH HDMI/DP,pcm=8"
+N: Name="HDA Intel PCH HDMI/DP,pcm=7"
 P: Phys=ALSA
 S: Sysfs=/devices/pci0000:00/0000:00:1f.3/sound/card0/input16
 U: Uniq=
@@ -157,7 +159,7 @@ B: EV=21
 B: SW=140
 
 I: Bus=0000 Vendor=0000 Product=0000 Version=0000
-N: Name="HDA Intel PCH HDMI/DP,pcm=9"
+N: Name="HDA Intel PCH HDMI/DP,pcm=8"
 P: Phys=ALSA
 S: Sysfs=/devices/pci0000:00/0000:00:1f.3/sound/card0/input17
 U: Uniq=
@@ -166,15 +168,13 @@ B: PROP=0
 B: EV=21
 B: SW=140
 
-I: Bus=0003 Vendor=10c4 Product=8105 Version=0111
-N: Name="YSPRINGTECH USB OPTICAL MOUSE"
-P: Phys=usb-0000:00:14.0-1/input0
-S: Sysfs=/devices/pci0000:00/0000:00:14.0/usb3/3-1/3-1:1.0/0003:10C4:8105.0003/input/input19
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="HDA Intel PCH HDMI/DP,pcm=9"
+P: Phys=ALSA
+S: Sysfs=/devices/pci0000:00/0000:00:1f.3/sound/card0/input18
 U: Uniq=
-H: Handlers=mouse2 event16 
+H: Handlers=event16 
 B: PROP=0
-B: EV=17
-B: KEY=1f0000 0 0 0 0
-B: REL=903
-B: MSC=10
+B: EV=21
+B: SW=140
 

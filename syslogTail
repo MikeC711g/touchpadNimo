@@ -1,0 +1,200 @@
+2025-07-27T20:20:10.727083-04:00 michael-casile-N151B systemd[1]: sysstat-collect.service: Deactivated successfully.
+2025-07-27T20:20:10.727509-04:00 michael-casile-N151B systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2025-07-27T20:20:21.675329-04:00 michael-casile-N151B update-notifier[3560]: g_object_get_data: assertion 'G_IS_OBJECT (object)' failed
+2025-07-27T20:20:27.708219-04:00 michael-casile-N151B dbus-daemon[2014]: [session uid=1000 pid=2014] Activating service name='org.gnome.Nautilus' requested by ':1.34' (uid=1000 pid=2244 comm="/usr/bin/gnome-shell" label="unconfined")
+2025-07-27T20:20:27.748667-04:00 michael-casile-N151B nautilus[12970]: Connecting to org.freedesktop.Tracker3.Miner.Files
+2025-07-27T20:20:27.749783-04:00 michael-casile-N151B dbus-daemon[2014]: [session uid=1000 pid=2014] Successfully activated service 'org.gnome.Nautilus'
+2025-07-27T20:20:28.061575-04:00 michael-casile-N151B dbus-daemon[775]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.171' (uid=1000 pid=12970 comm="/usr/bin/nautilus --gapplication-service" label="nautilus (unconfined)")
+2025-07-27T20:20:28.063880-04:00 michael-casile-N151B gnome-shell[2244]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+2025-07-27T20:20:28.074237-04:00 michael-casile-N151B systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+2025-07-27T20:20:28.124177-04:00 michael-casile-N151B dbus-daemon[775]: [system] Successfully activated service 'org.freedesktop.hostname1'
+2025-07-27T20:20:28.124426-04:00 michael-casile-N151B systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+2025-07-27T20:20:50.433566-04:00 michael-casile-N151B google-chrome.desktop[3037]: [3029:3029:0727/202050.432992:ERROR:ui/gfx/x/atom_cache.cc:232] Add chromium/from-privileged to kAtomsToCache
+2025-07-27T20:20:58.202478-04:00 michael-casile-N151B systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+2025-07-27T20:22:09.203019-04:00 michael-casile-N151B xdg-document-portal[2043]: removing transfer 16828068764551424454 for dead peer :1.140
+2025-07-27T20:22:09.203422-04:00 michael-casile-N151B xdg-document-portal[2043]: removing transfer 9504067713989449604 for dead peer :1.140
+2025-07-27T20:24:02.022447-04:00 michael-casile-N151B tracker-miner-fs-3[13159]: (tracker-extract-3:13159): GLib-GIO-WARNING **: 20:24:02.021: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-07-27T20:24:05.276487-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-65 noise=9999 txrate=72200
+2025-07-27T20:24:28.732489-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-51 noise=9999 txrate=72200
+2025-07-27T20:24:30.866878-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-51 noise=9999 txrate=72200
+2025-07-27T20:25:01.892778-04:00 michael-casile-N151B CRON[13174]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2025-07-27T20:27:08.497358-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-49 noise=9999 txrate=72200
+2025-07-27T20:30:01.904429-04:00 michael-casile-N151B CRON[13230]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+2025-07-27T20:30:04.449337-04:00 michael-casile-N151B systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2025-07-27T20:30:04.506341-04:00 michael-casile-N151B kernel: rfkill: input handler enabled
+2025-07-27T20:30:04.515720-04:00 michael-casile-N151B systemd[1]: sysstat-collect.service: Deactivated successfully.
+2025-07-27T20:30:04.516091-04:00 michael-casile-N151B systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2025-07-27T20:31:00.447247-04:00 michael-casile-N151B systemd[1]: Started anacron.service - Run anacron jobs.
+2025-07-27T20:31:00.449523-04:00 michael-casile-N151B anacron[13294]: Anacron 2.3 started on 2025-07-27
+2025-07-27T20:31:00.450453-04:00 michael-casile-N151B anacron[13294]: Normal exit (0 jobs run)
+2025-07-27T20:31:00.451987-04:00 michael-casile-N151B systemd[1]: anacron.service: Deactivated successfully.
+2025-07-27T20:31:05.854714-04:00 michael-casile-N151B gdm3: GLib: Source ID 105 was not found when attempting to remove it
+2025-07-27T20:31:05.862167-04:00 michael-casile-N151B kernel: rfkill: input handler disabled
+2025-07-27T20:31:05.869907-04:00 michael-casile-N151B rtkit-daemon[1373]: Successfully made thread 2259 of process 2244 owned by '1000' high priority at nice level 0.
+2025-07-27T20:31:05.870093-04:00 michael-casile-N151B rtkit-daemon[1373]: Supervising 8 threads of 5 processes of 1 users.
+2025-07-27T20:31:05.877408-04:00 michael-casile-N151B rtkit-daemon[1373]: Supervising 7 threads of 4 processes of 1 users.
+2025-07-27T20:31:05.878187-04:00 michael-casile-N151B rtkit-daemon[1373]: Supervising 7 threads of 4 processes of 1 users.
+2025-07-27T20:31:05.882119-04:00 michael-casile-N151B rtkit-daemon[1373]: Successfully made thread 2259 of process 2244 owned by '1000' RT at priority 20.
+2025-07-27T20:31:05.882227-04:00 michael-casile-N151B rtkit-daemon[1373]: Supervising 8 threads of 5 processes of 1 users.
+2025-07-27T20:31:06.008815-04:00 michael-casile-N151B rtkit-daemon[1373]: Successfully made thread 2259 of process 2244 owned by '1000' high priority at nice level 0.
+2025-07-27T20:31:06.008965-04:00 michael-casile-N151B rtkit-daemon[1373]: Supervising 8 threads of 5 processes of 1 users.
+2025-07-27T20:31:06.020216-04:00 michael-casile-N151B gnome-shell[2244]: libinput error: event6  - XXXX0000:05 093A:0255 Touchpad: kernel bug: clickpad advertising right button. See https://wayland.freedesktop.org/libinput/doc/1.25.0/clickpad-with-right-button.html for details
+2025-07-27T20:31:06.056536-04:00 michael-casile-N151B rtkit-daemon[1373]: Supervising 7 threads of 4 processes of 1 users.
+2025-07-27T20:31:06.056777-04:00 michael-casile-N151B rtkit-daemon[1373]: Supervising 7 threads of 4 processes of 1 users.
+2025-07-27T20:31:06.056857-04:00 michael-casile-N151B rtkit-daemon[1373]: Successfully made thread 2259 of process 2244 owned by '1000' RT at priority 20.
+2025-07-27T20:31:06.056922-04:00 michael-casile-N151B rtkit-daemon[1373]: Supervising 8 threads of 5 processes of 1 users.
+2025-07-27T20:31:06.177447-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+2025-07-27T20:31:06.177724-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+2025-07-27T20:31:06.178179-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+2025-07-27T20:31:06.178233-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+2025-07-27T20:31:06.178272-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+2025-07-27T20:31:06.178319-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+2025-07-27T20:31:06.178354-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+2025-07-27T20:31:06.178387-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+2025-07-27T20:31:06.178420-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+2025-07-27T20:31:06.178453-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+2025-07-27T20:31:06.178486-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+2025-07-27T20:31:06.178518-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+2025-07-27T20:31:06.178567-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+2025-07-27T20:31:06.178604-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+2025-07-27T20:31:06.178636-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+2025-07-27T20:31:06.178669-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+2025-07-27T20:31:06.178701-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+2025-07-27T20:31:06.178732-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+2025-07-27T20:31:06.179515-04:00 michael-casile-N151B gnome-shell[13372]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+2025-07-27T20:31:06.179594-04:00 michael-casile-N151B gnome-shell[13372]: > Warning:          Unsupported maximum keycode 708, clipping.
+2025-07-27T20:31:06.179634-04:00 michael-casile-N151B gnome-shell[13372]: >                   X11 cannot support keycodes above 255.
+2025-07-27T20:31:06.180368-04:00 michael-casile-N151B gnome-shell[13372]: > Warning:          Could not resolve keysym XF86CameraAccessEnable
+2025-07-27T20:31:06.180425-04:00 michael-casile-N151B gnome-shell[13372]: > Warning:          Could not resolve keysym XF86CameraAccessDisable
+2025-07-27T20:31:06.180461-04:00 michael-casile-N151B gnome-shell[13372]: > Warning:          Could not resolve keysym XF86CameraAccessToggle
+2025-07-27T20:31:06.180515-04:00 michael-casile-N151B gnome-shell[13372]: > Warning:          Could not resolve keysym XF86NextElement
+2025-07-27T20:31:06.180550-04:00 michael-casile-N151B gnome-shell[13372]: > Warning:          Could not resolve keysym XF86PreviousElement
+2025-07-27T20:31:06.180598-04:00 michael-casile-N151B gnome-shell[13372]: > Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+2025-07-27T20:31:06.180633-04:00 michael-casile-N151B gnome-shell[13372]: > Warning:          Could not resolve keysym XF86MarkWaypoint
+2025-07-27T20:31:06.180665-04:00 michael-casile-N151B gnome-shell[13372]: > Warning:          Could not resolve keysym XF86Sos
+2025-07-27T20:31:06.180697-04:00 michael-casile-N151B gnome-shell[13372]: > Warning:          Could not resolve keysym XF86NavChart
+2025-07-27T20:31:06.180729-04:00 michael-casile-N151B gnome-shell[13372]: > Warning:          Could not resolve keysym XF86FishingChart
+2025-07-27T20:31:06.180761-04:00 michael-casile-N151B gnome-shell[13372]: > Warning:          Could not resolve keysym XF86SingleRangeRadar
+2025-07-27T20:31:06.180793-04:00 michael-casile-N151B gnome-shell[13372]: > Warning:          Could not resolve keysym XF86DualRangeRadar
+2025-07-27T20:31:06.180832-04:00 michael-casile-N151B gnome-shell[13372]: > Warning:          Could not resolve keysym XF86RadarOverlay
+2025-07-27T20:31:06.180867-04:00 michael-casile-N151B gnome-shell[13372]: > Warning:          Could not resolve keysym XF86TraditionalSonar
+2025-07-27T20:31:06.180904-04:00 michael-casile-N151B gnome-shell[13372]: > Warning:          Could not resolve keysym XF86ClearvuSonar
+2025-07-27T20:31:06.180935-04:00 michael-casile-N151B gnome-shell[13372]: > Warning:          Could not resolve keysym XF86SidevuSonar
+2025-07-27T20:31:06.180967-04:00 michael-casile-N151B gnome-shell[13372]: > Warning:          Could not resolve keysym XF86NavInfo
+2025-07-27T20:31:06.181005-04:00 michael-casile-N151B gnome-shell[13372]: Errors from xkbcomp are not fatal to the X server
+2025-07-27T20:31:29.966140-04:00 michael-casile-N151B tracker-miner-fs-3[13376]: (tracker-extract-3:13376): GLib-GIO-WARNING **: 20:31:29.965: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-07-27T20:31:41.756256-04:00 michael-casile-N151B tracker-miner-fs-3[13382]: (tracker-extract-3:13382): GLib-GIO-WARNING **: 20:31:41.754: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-07-27T20:32:16.649506-04:00 michael-casile-N151B tracker-miner-fs-3[13421]: (tracker-extract-3:13421): GLib-GIO-WARNING **: 20:32:16.649: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-07-27T20:32:34.500763-04:00 michael-casile-N151B kernel: rfkill: input handler enabled
+2025-07-27T20:32:52.664445-04:00 michael-casile-N151B gdm3: GLib: Source ID 125 was not found when attempting to remove it
+2025-07-27T20:32:52.671220-04:00 michael-casile-N151B kernel: rfkill: input handler disabled
+2025-07-27T20:32:52.678478-04:00 michael-casile-N151B rtkit-daemon[1373]: Successfully made thread 2259 of process 2244 owned by '1000' high priority at nice level 0.
+2025-07-27T20:32:52.678665-04:00 michael-casile-N151B rtkit-daemon[1373]: Supervising 8 threads of 5 processes of 1 users.
+2025-07-27T20:32:52.686788-04:00 michael-casile-N151B rtkit-daemon[1373]: Supervising 7 threads of 4 processes of 1 users.
+2025-07-27T20:32:52.687835-04:00 michael-casile-N151B rtkit-daemon[1373]: Supervising 7 threads of 4 processes of 1 users.
+2025-07-27T20:32:52.692699-04:00 michael-casile-N151B rtkit-daemon[1373]: Successfully made thread 2259 of process 2244 owned by '1000' RT at priority 20.
+2025-07-27T20:32:52.692827-04:00 michael-casile-N151B rtkit-daemon[1373]: Supervising 8 threads of 5 processes of 1 users.
+2025-07-27T20:32:52.794827-04:00 michael-casile-N151B rtkit-daemon[1373]: Successfully made thread 2259 of process 2244 owned by '1000' high priority at nice level 0.
+2025-07-27T20:32:52.794967-04:00 michael-casile-N151B rtkit-daemon[1373]: Supervising 8 threads of 5 processes of 1 users.
+2025-07-27T20:32:52.808151-04:00 michael-casile-N151B gnome-shell[2244]: libinput error: event6  - XXXX0000:05 093A:0255 Touchpad: kernel bug: clickpad advertising right button. See https://wayland.freedesktop.org/libinput/doc/1.25.0/clickpad-with-right-button.html for details
+2025-07-27T20:32:52.817867-04:00 michael-casile-N151B rtkit-daemon[1373]: Supervising 7 threads of 4 processes of 1 users.
+2025-07-27T20:32:52.818586-04:00 michael-casile-N151B rtkit-daemon[1373]: Supervising 7 threads of 4 processes of 1 users.
+2025-07-27T20:32:52.823839-04:00 michael-casile-N151B rtkit-daemon[1373]: Successfully made thread 2259 of process 2244 owned by '1000' RT at priority 20.
+2025-07-27T20:32:52.823983-04:00 michael-casile-N151B rtkit-daemon[1373]: Supervising 8 threads of 5 processes of 1 users.
+2025-07-27T20:32:52.930497-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+2025-07-27T20:32:52.931498-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+2025-07-27T20:32:52.931624-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+2025-07-27T20:32:52.931690-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+2025-07-27T20:32:52.931716-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+2025-07-27T20:32:52.931738-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+2025-07-27T20:32:52.931767-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+2025-07-27T20:32:52.931802-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+2025-07-27T20:32:52.931865-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+2025-07-27T20:32:52.931894-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+2025-07-27T20:32:52.931920-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+2025-07-27T20:32:52.931969-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+2025-07-27T20:32:52.932029-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+2025-07-27T20:32:52.932086-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+2025-07-27T20:32:52.932113-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+2025-07-27T20:32:52.932172-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+2025-07-27T20:32:52.932209-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+2025-07-27T20:32:52.932248-04:00 michael-casile-N151B gnome-shell[2244]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+2025-07-27T20:32:52.936073-04:00 michael-casile-N151B gnome-shell[13547]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+2025-07-27T20:32:52.937761-04:00 michael-casile-N151B gnome-shell[13547]: > Warning:          Unsupported maximum keycode 708, clipping.
+2025-07-27T20:32:52.937813-04:00 michael-casile-N151B gnome-shell[13547]: >                   X11 cannot support keycodes above 255.
+2025-07-27T20:32:52.937837-04:00 michael-casile-N151B gnome-shell[13547]: > Warning:          Could not resolve keysym XF86CameraAccessEnable
+2025-07-27T20:32:52.937862-04:00 michael-casile-N151B gnome-shell[13547]: > Warning:          Could not resolve keysym XF86CameraAccessDisable
+2025-07-27T20:32:52.937882-04:00 michael-casile-N151B gnome-shell[13547]: > Warning:          Could not resolve keysym XF86CameraAccessToggle
+2025-07-27T20:32:52.937902-04:00 michael-casile-N151B gnome-shell[13547]: > Warning:          Could not resolve keysym XF86NextElement
+2025-07-27T20:32:52.937922-04:00 michael-casile-N151B gnome-shell[13547]: > Warning:          Could not resolve keysym XF86PreviousElement
+2025-07-27T20:32:52.937952-04:00 michael-casile-N151B gnome-shell[13547]: > Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+2025-07-27T20:32:52.937971-04:00 michael-casile-N151B gnome-shell[13547]: > Warning:          Could not resolve keysym XF86MarkWaypoint
+2025-07-27T20:32:52.937990-04:00 michael-casile-N151B gnome-shell[13547]: > Warning:          Could not resolve keysym XF86Sos
+2025-07-27T20:32:52.938008-04:00 michael-casile-N151B gnome-shell[13547]: > Warning:          Could not resolve keysym XF86NavChart
+2025-07-27T20:32:52.938026-04:00 michael-casile-N151B gnome-shell[13547]: > Warning:          Could not resolve keysym XF86FishingChart
+2025-07-27T20:32:52.938044-04:00 michael-casile-N151B gnome-shell[13547]: > Warning:          Could not resolve keysym XF86SingleRangeRadar
+2025-07-27T20:32:52.938062-04:00 michael-casile-N151B gnome-shell[13547]: > Warning:          Could not resolve keysym XF86DualRangeRadar
+2025-07-27T20:32:52.938083-04:00 michael-casile-N151B gnome-shell[13547]: > Warning:          Could not resolve keysym XF86RadarOverlay
+2025-07-27T20:32:52.938101-04:00 michael-casile-N151B gnome-shell[13547]: > Warning:          Could not resolve keysym XF86TraditionalSonar
+2025-07-27T20:32:52.938155-04:00 michael-casile-N151B gnome-shell[13547]: > Warning:          Could not resolve keysym XF86ClearvuSonar
+2025-07-27T20:32:52.938175-04:00 michael-casile-N151B gnome-shell[13547]: > Warning:          Could not resolve keysym XF86SidevuSonar
+2025-07-27T20:32:52.938202-04:00 michael-casile-N151B gnome-shell[13547]: > Warning:          Could not resolve keysym XF86NavInfo
+2025-07-27T20:32:52.938221-04:00 michael-casile-N151B gnome-shell[13547]: Errors from xkbcomp are not fatal to the X server
+2025-07-27T20:33:00.345072-04:00 michael-casile-N151B tracker-miner-fs-3[13553]: (tracker-extract-3:13553): GLib-GIO-WARNING **: 20:33:00.344: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-07-27T20:33:14.423719-04:00 michael-casile-N151B tracker-miner-fs-3[13560]: (tracker-extract-3:13560): GLib-GIO-WARNING **: 20:33:14.423: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-07-27T20:33:17.939804-04:00 michael-casile-N151B systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+2025-07-27T20:33:17.977368-04:00 michael-casile-N151B fwupdmgr[13568]: Updating lvfs
+2025-07-27T20:33:18.277710-04:00 michael-casile-N151B fwupdmgr[13568]: Successfully downloaded new metadata: 0 local devices supported
+2025-07-27T20:33:18.282539-04:00 michael-casile-N151B systemd[1]: fwupd-refresh.service: Deactivated successfully.
+2025-07-27T20:33:18.282882-04:00 michael-casile-N151B systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+2025-07-27T20:33:20.192385-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-65 noise=9999 txrate=72200
+2025-07-27T20:33:34.731097-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-58 noise=9999 txrate=72200
+2025-07-27T20:33:38.110224-04:00 michael-casile-N151B tracker-miner-fs-3[13579]: (tracker-extract-3:13579): GLib-GIO-WARNING **: 20:33:38.109: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-07-27T20:34:06.782064-04:00 michael-casile-N151B tracker-miner-fs-3[13587]: (tracker-extract-3:13587): GLib-GIO-WARNING **: 20:34:06.781: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-07-27T20:34:07.154486-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-64 noise=9999 txrate=72200
+2025-07-27T20:34:17.723033-04:00 michael-casile-N151B tracker-miner-fs-3[13593]: (tracker-extract-3:13593): GLib-GIO-WARNING **: 20:34:17.722: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-07-27T20:34:26.217319-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-61 noise=9999 txrate=72200
+2025-07-27T20:34:28.731819-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-56 noise=9999 txrate=72200
+2025-07-27T20:34:40.730731-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-74 noise=9999 txrate=72200
+2025-07-27T20:34:55.496930-04:00 michael-casile-N151B NetworkManager[952]: <info>  [1753662895.4961] dhcp6 (wlp0s20f3): state changed new lease, address=2600:6c60:5d00:1dd:1634:3288:2dd8:20cf
+2025-07-27T20:34:55.499054-04:00 michael-casile-N151B dbus-daemon[775]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.15' (uid=0 pid=952 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+2025-07-27T20:34:55.520762-04:00 michael-casile-N151B systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+2025-07-27T20:34:55.532452-04:00 michael-casile-N151B dbus-daemon[775]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+2025-07-27T20:34:55.533363-04:00 michael-casile-N151B systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+2025-07-27T20:35:01.916249-04:00 michael-casile-N151B CRON[13605]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2025-07-27T20:35:05.548879-04:00 michael-casile-N151B systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+2025-07-27T20:35:34.776335-04:00 michael-casile-N151B tracker-miner-fs-3[13610]: (tracker-extract-3:13610): GLib-GIO-WARNING **: 20:35:34.775: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-07-27T20:35:54.283616-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: WPA: Group rekeying completed with 3c:64:cf:40:4e:14 [GTK=TKIP]
+2025-07-27T20:36:04.580397-04:00 michael-casile-N151B NetworkManager[952]: <info>  [1753662964.5794] dhcp4 (wlp0s20f3): state changed new lease, address=192.168.202.106
+2025-07-27T20:36:04.583455-04:00 michael-casile-N151B dbus-daemon[775]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.15' (uid=0 pid=952 comm="/usr/sbin/NetworkManager --no-daemon" label="unconfined")
+2025-07-27T20:36:04.600440-04:00 michael-casile-N151B systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+2025-07-27T20:36:04.611118-04:00 michael-casile-N151B dbus-daemon[775]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+2025-07-27T20:36:04.611416-04:00 michael-casile-N151B systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+2025-07-27T20:36:12.305259-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-64 noise=9999 txrate=72200
+2025-07-27T20:36:14.627959-04:00 michael-casile-N151B systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+2025-07-27T20:36:16.730918-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-48 noise=9999 txrate=72200
+2025-07-27T20:36:46.732394-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-77 noise=9999 txrate=72200
+2025-07-27T20:37:03.094824-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-73 noise=9999 txrate=72200
+2025-07-27T20:37:22.228907-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-65 noise=9999 txrate=72200
+2025-07-27T20:37:40.731274-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-60 noise=9999 txrate=72200
+2025-07-27T20:37:46.731527-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-65 noise=9999 txrate=72200
+2025-07-27T20:37:57.770074-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-64 noise=9999 txrate=72200
+2025-07-27T20:38:13.860433-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-64 noise=9999 txrate=72200
+2025-07-27T20:38:33.439883-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-73 noise=9999 txrate=72200
+2025-07-27T20:38:39.136827-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-63 noise=9999 txrate=72200
+2025-07-27T20:38:42.638095-04:00 michael-casile-N151B tracker-miner-fs-3[13677]: (tracker-extract-3:13677): GLib-GIO-WARNING **: 20:38:42.637: Error creating IO channel for /proc/self/mountinfo: Invalid argument (g-io-error-quark, 13)
+2025-07-27T20:38:49.170756-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-56 noise=9999 txrate=72200
+2025-07-27T20:38:54.672486-04:00 michael-casile-N151B kernel: rfkill: input handler enabled
+2025-07-27T20:38:52.731818-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-56 noise=9999 txrate=72200
+2025-07-27T20:39:08.680520-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-64 noise=9999 txrate=72200
+2025-07-27T20:39:16.732180-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-65 noise=9999 txrate=72200
+2025-07-27T20:39:21.318898-04:00 michael-casile-N151B wpa_supplicant[972]: message repeated 2 times: [ wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-65 noise=9999 txrate=72200]
+2025-07-27T20:39:27.060568-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-64 noise=9999 txrate=72200
+2025-07-27T20:40:10.451881-04:00 michael-casile-N151B systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2025-07-27T20:40:10.461134-04:00 michael-casile-N151B systemd[1]: sysstat-collect.service: Deactivated successfully.
+2025-07-27T20:40:10.461466-04:00 michael-casile-N151B systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2025-07-27T20:40:55.219153-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-66 noise=9999 txrate=72200
+2025-07-27T20:41:13.269647-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-57 noise=9999 txrate=72200
+2025-07-27T20:41:16.416431-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-67 noise=9999 txrate=72200
+2025-07-27T20:41:21.537032-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=1 signal=-57 noise=9999 txrate=72200
+2025-07-27T20:41:52.070167-04:00 michael-casile-N151B wpa_supplicant[972]: wlp0s20f3: CTRL-EVENT-SIGNAL-CHANGE above=0 signal=-65 noise=9999 txrate=72200
